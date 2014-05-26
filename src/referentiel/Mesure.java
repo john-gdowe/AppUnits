@@ -4,24 +4,45 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Mesure {
-	
-    private String nom_mesure;
-    
-	private List<Unite> unite = new ArrayList<Unite> ();
 
-	public String getNom_mesure() {
-		return nom_mesure;
-	}
-	
-	public void setNom_mesure(String nom_mesure) {
-		this.nom_mesure = nom_mesure;
-	}
-	
-	public List<Unite> getUnite() {
-		return unite;
-	}
-	
-	public void setUnite(List<Unite> unite) {
-		this.unite = unite;
-	}
+    // Le type de la mesure
+    private String nomMesure;
+
+    // La liste des unités qui lui sont rattachées
+    private List<Unite> listeUnites;
+
+    public Mesure() {
+	this.listeUnites = new ArrayList<Unite>();
+    }
+
+    public Mesure(String nomMesure, List<Unite> listeUnites) {
+	this.nomMesure = nomMesure;
+	this.listeUnites = listeUnites;
+    }
+
+    public String getNomMesure() {
+	return nomMesure;
+    }
+
+    public void setNomMesure(String nomMesure) {
+	this.nomMesure = nomMesure;
+    }
+
+    public List<Unite> getListeUnites() {
+	return listeUnites;
+    }
+
+    public void setListeUnites(List<Unite> listeUnites) {
+	this.listeUnites = listeUnites;
+    }
+
+    public void ajoutUnite(Unite u) {
+	this.listeUnites.add(u);
+    }
+
+    @Override
+    public String toString() {
+	return "Mesure [nomMesure=" + nomMesure + ", listeUnites="
+		+ listeUnites + "]";
+    }
 }

@@ -1,16 +1,26 @@
 package referentiel;
 
 public class Valeur {
-    private double val;
 
-	public double getVal() {
-		return val;
-	}
+    private Double val;
 
-	public void setVal(double val) {
-		this.val = val;
-	}
+    public Valeur() {
+    }
 
-   
+    public Valeur(Double v) {
+	this.val = v;
+    }
 
+    public double getVal() {
+	return this.val;
+    }
+
+    public void setVal(Double val) {
+	this.val = val;
+    }
+
+    @Override
+    public String toString() {
+	return "Valeur [val=" + val + "]";
+    }
 }

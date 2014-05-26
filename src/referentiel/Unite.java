@@ -1,38 +1,47 @@
 package referentiel;
 
-
 public class Unite {
-	
-    private String nom_unite;
-    private int coef;
-    private Valeur valeur;
 
-    public String getNom_unite() {
-        return this.nom_unite;
+    private String nomUnite;
+    private int coefUnite;
+    private Valeur valeurUnite;
+
+    public Unite() {
     }
 
-    public void setNom_unite(String value) {
-       this.nom_unite = value;
+    public Unite(String nomUnite, int coefUnite, Valeur valeurUnite) {
+	this.nomUnite = nomUnite;
+	this.coefUnite = coefUnite;
+	this.valeurUnite = valeurUnite;
     }
 
-    public int getCoef() {
-       return this.coef;
+    public String getNomUnite() {
+	return nomUnite;
     }
 
-    public void setCoef(int value) {
-       this.coef = value;
+    public void setNomUnite(String nomUnite) {
+	this.nomUnite = nomUnite;
     }
 
-    public Valeur getValeur() {
-        return this.valeur;
+    public int getCoefUnite() {
+	return coefUnite;
     }
 
-    public void setValeur(Valeur value) {
-       this.valeur = value;
+    public void setCoefUnite(int coefUnite) {
+	this.coefUnite = coefUnite;
     }
 
-    public void setVALEUR(Valeur value) {
-        this.valeur = value;
+    public Valeur getValeurUnite() {
+	return valeurUnite;
     }
 
+    public void setValeurUnite(Valeur valeurUnite) {
+	this.valeurUnite = valeurUnite;
+    }
+
+    @Override
+    public String toString() {
+	return "Unite [nomUnite=" + nomUnite + ", coefUnite=" + coefUnite
+		+ ", valeurUnite=" + valeurUnite + "]";
+    }
 }

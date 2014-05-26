@@ -1,43 +1,40 @@
 <?xml version="1.0"?>
 <SystemeConversion>
 
-	<systeme id="1" nom_systeme="métrique">
+	<systeme id_systeme="1" nom_systeme="metrique">
 	
-		<mesure id_unite="100" nom_mesure="longueur">		
+		<mesure id_mesure="100" nom_mesure="longueur">		
 			<unite>
-				<nom_unite>Kilomètre</nom_unite>
+				<nom_unite>Kilomï¿½tre</nom_unite>
 				<coef_unite>-3</coef_unite>
-			</unite>			
+			</unite>
 			<unite>
-			<unite>
-				<nom_unite>Hectomètre</nom_unite>
+				<nom_unite>Hectomï¿½tre</nom_unite>
 				<coef_unite>-2</coef_unite>
-			</unite>			
+			</unite>
 			<unite>
-			<unite>
-				<nom_unite>Décamètre</nom_unite>
+				<nom_unite>Dï¿½camï¿½tre</nom_unite>
 				<coef_unite>-1</coef_unite>
-			</unite>			
+			</unite>
 			<unite>
-			<unite>
-				<nom_unite>MÈTRE</nom_unite>
+				<nom_unite>Mï¿½TRE</nom_unite>
 				<coef_unite>0</coef_unite>
 			</unite>			
 			<unite>
-				<nom_unite>Décimètre</nom_unite>
+				<nom_unite>Dï¿½cimï¿½tre</nom_unite>
 				<coef_unite>1</coef_unite>
 			</unite>			
 			<unite>
-				<nom_unite>Centimètre</nom_unite>
+				<nom_unite>Centimï¿½tre</nom_unite>
 				<coef_unite>2</coef_unite>
 			</unite>			
 			<unite>
-				<nom_unite>Millimètre</nom_unite>
+				<nom_unite>Millimï¿½tre</nom_unite>
 				<coef_unite>3</coef_unite>
 			</unite>			
 		</mesure>
 		
-		<mesure id_unite="200" nom_mesure="capacité">		
+		<mesure id_mesure="200" nom_mesure="capacitï¿½">		
 			<unite>
 				<nom_unite>kilolitre</nom_unite>
 				<coef_unite>-3</coef_unite>
@@ -64,7 +61,7 @@
 			</unite>
 		</mesure>
 		
-		<mesure id_unite="300" nom_mesure="masse">		
+		<mesure id_mesure="300" nom_mesure="masse">		
 			<unite>
 				<nom_unite>tonne</nom_unite>
 				<coef_unite>-4</coef_unite>
@@ -106,43 +103,40 @@
 	</systeme>
 	
 	
-	<systeme id="2" nom_systeme="impérial">
+	<systeme id_systeme="2" nom_systeme="imperial">
 	
-		<mesure id_unite="100" nom_mesure="longueur">		
+		<mesure id_mesure="100" nom_mesure="longueur">		
 			<unite>
 				<nom_unite>Thou</nom_unite>
 				<coef_unite>-3</coef_unite>
-			</unite>			
+			</unite>
 			<unite>
-			<unite>
-				<nom_unite>Hectomètre</nom_unite>
+				<nom_unite>Hectomere</nom_unite>
 				<coef_unite>-2</coef_unite>
-			</unite>			
+			</unite>
 			<unite>
-			<unite>
-				<nom_unite>Décamètre</nom_unite>
+				<nom_unite>Decametre</nom_unite>
 				<coef_unite>-1</coef_unite>
-			</unite>			
+			</unite>
 			<unite>
-			<unite>
-				<nom_unite>MÈTRE</nom_unite>
+				<nom_unite>Metre</nom_unite>
 				<coef_unite>0</coef_unite>
 			</unite>			
 			<unite>
-				<nom_unite>Décimètre</nom_unite>
+				<nom_unite>Decimetre</nom_unite>
 				<coef_unite>1</coef_unite>
 			</unite>			
 			<unite>
-				<nom_unite>Centimètre</nom_unite>
+				<nom_unite>Centimetre</nom_unite>
 				<coef_unite>2</coef_unite>
 			</unite>			
 			<unite>
-				<nom_unite>Millimètre</nom_unite>
+				<nom_unite>Millimetre</nom_unite>
 				<coef_unite>3</coef_unite>
 			</unite>			
 		</mesure>
 		
-		<mesure id_unite="200" nom_mesure="capacité">		
+		<mesure id_mesure="200" nom_mesure="capacitï¿½">		
 			<unite>
 				<nom_unite>kilolitre</nom_unite>
 				<coef_unite>-3</coef_unite>
@@ -169,7 +163,7 @@
 			</unite>
 		</mesure>
 		
-		<mesure id_unite="300" nom_mesure="masse">		
+		<mesure id_mesure="300" nom_mesure="masse">		
 			<unite>
 				<nom_unite>tonne</nom_unite>
 				<coef_unite>-4</coef_unite>
@@ -183,7 +177,7 @@
 				<coef_unite>-2</coef_unite>
 			</unite>			
 			<unite>
-				<nom_unite>dekagram</nom_unite>
+				<nom_unite>decagramme</nom_unite>
 				<coef_unite>-1</coef_unite>
 			</unite>
 			<unite>
@@ -210,47 +204,33 @@
 	</systeme>
 	
 	
-	
 	<conversion>
-		<systeme_depart>1</systeme_depart>
-		<systeme_arrive>2</systeme_arrive>
-		<mesure>100</mesure>
-		<taux_conversion>0.5</taux_conversion>
+		<systeme_depart id_depart="1">
+			<systeme_arrivee id_arrivee="2">
+				<mesure id_mesure="100">
+					<taux_conversion>0.5</taux_conversion>
+				</mesure>
+				<mesure id_mesure="200">
+					<taux_conversion>0.5</taux_conversion>
+				</mesure>
+				<mesure id_mesure="300">
+					<taux_conversion>0.5</taux_conversion>
+				</mesure>
+			</systeme_arrivee>
+		</systeme_depart>
+		
+		<systeme_depart id_depart="2">
+			<systeme_arrivee id_arrivee="1">
+				<mesure id_mesure="100">
+					<taux_conversion>1.5</taux_conversion>
+				</mesure>
+				<mesure id_mesure="200">
+					<taux_conversion>0.5</taux_conversion>
+				</mesure>
+				<mesure id_mesure="300">
+					<taux_conversion>0.5</taux_conversion>
+				</mesure>
+			</systeme_arrivee>
+		</systeme_depart>
 	</conversion>
-	
-	<conversion>
-		<systeme_depart>1</systeme_depart>
-		<systeme_arrive>2</systeme_arrive>
-		<mesure>200</mesure>
-		<taux_conversion>0.5</taux_conversion>
-	</conversion>
-	
-	<conversion>
-		<systeme_depart>1</systeme_depart>
-		<systeme_arrive>2</systeme_arrive>
-		<mesure>300</mesure>
-		<taux_conversion>0.5</taux_conversion>
-	</conversion>
-	
-	<conversion>
-		<systeme_depart>2</systeme_depart>
-		<systeme_arrive>1</systeme_arrive>
-		<mesure>100</mesure>
-		<taux_conversion>1.5</taux_conversion>
-	</conversion>
-	
-	<conversion>
-		<systeme_depart>2</systeme_depart>
-		<systeme_arrive>1</systeme_arrive>
-		<mesure>200</mesure>
-		<taux_conversion>1.5</taux_conversion>
-	</conversion>
-	
-	<conversion>
-		<systeme_depart>2</systeme_depart>
-		<systeme_arrive>1</systeme_arrive>
-		<mesure>300</mesure>
-		<taux_conversion>1.5</taux_conversion>
-	</conversion>
-	
 </SystemeConversion>

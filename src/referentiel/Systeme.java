@@ -4,24 +4,47 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Systeme {
-	
-    private String nom_system;
-    private List<Mesure> Mesure = new ArrayList<Mesure> ();
 
-    public List<Mesure> getMesure() {
-        return this.Mesure;
+    private String nomSysteme;
+    private List<Mesure> listeMesures;
+
+    public Systeme() {
+	this.listeMesures = new ArrayList<Mesure>();
     }
 
-    public void setMesure(List<Mesure> value) {
-       this.Mesure = value;
+    public Systeme(String nom) {
+	this.nomSysteme = nom;
+	this.listeMesures = new ArrayList<Mesure>();
     }
 
-    public String getNom_system() {
-        return this.nom_system;
+    public Systeme(String nom, List<Mesure> liste) {
+	this.nomSysteme = nom;
+	this.listeMesures = liste;
     }
 
-    public void setNom_system(String value) {
-       this.nom_system = value;
+    public String getNomSysteme() {
+	return nomSysteme;
     }
 
- }
+    public void setNomSysteme(String nomSysteme) {
+	this.nomSysteme = nomSysteme;
+    }
+
+    public List<Mesure> getListeMesures() {
+	return listeMesures;
+    }
+
+    public void setListeMesures(List<Mesure> listeMesures) {
+	this.listeMesures = listeMesures;
+    }
+
+    public void ajoutMesure(Mesure m) {
+	this.listeMesures.add(m);
+    }
+
+    @Override
+    public String toString() {
+	return "Systeme [nomSysteme=" + nomSysteme + ", listeMesures="
+		+ listeMesures + "]";
+    }
+}
