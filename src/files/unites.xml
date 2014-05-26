@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<SystemeConversion>
+
+	<systeme id="1" nom_systeme="métrique">
+	
+		<mesure id_unite="100" nom_mesure="longueur">		
+			<unite>
+				<nom_unite>Kilomètre</nom_unite>
+				<coef_unite>-3</coef_unite>
+			</unite>			
+			<unite>
+			<unite>
+				<nom_unite>Hectomètre</nom_unite>
+				<coef_unite>-2</coef_unite>
+			</unite>			
+			<unite>
+			<unite>
+				<nom_unite>Décamètre</nom_unite>
+				<coef_unite>-1</coef_unite>
+			</unite>			
+			<unite>
+			<unite>
+				<nom_unite>MÈTRE</nom_unite>
+				<coef_unite>0</coef_unite>
+			</unite>			
+			<unite>
+				<nom_unite>Décimètre</nom_unite>
+				<coef_unite>1</coef_unite>
+			</unite>			
+			<unite>
+				<nom_unite>Centimètre</nom_unite>
+				<coef_unite>2</coef_unite>
+			</unite>			
+			<unite>
+				<nom_unite>Millimètre</nom_unite>
+				<coef_unite>3</coef_unite>
+			</unite>			
+		</mesure>
+		
+		<mesure id_unite="200" nom_mesure="capacité">		
+			<unite>
+				<nom_unite>kilolitre</nom_unite>
+				<coef_unite>-3</coef_unite>
+			</unite>			
+			<unite>
+				<nom_unite>hectolitre</nom_unite>
+				<coef_unite>-2</coef_unite>
+			</unite>			
+			<unite>
+				<nom_unite>dekalitre</nom_unite>
+				<coef_unite>-1</coef_unite>
+			</unite>			
+			<unite>
+				<nom_unite>litre</nom_unite>
+				<coef_unite>0</coef_unite>
+			</unite>
+			<unite>
+				<nom_unite>decilitre</nom_unite>
+				<coef_unite>1</coef_unite>
+			</unite>
+			<unite>
+				<nom_unite>centilitre</nom_unite>
+				<coef_unite>2</coef_unite>
+			</unite>
+		</mesure>
+		
+		<mesure id_unite="300" nom_mesure="masse">		
+			<unite>
+				<nom_unite>tonne</nom_unite>
+				<coef_unite>-4</coef_unite>
+			</unite>			
+			<unite>
+				<nom_unite>kilogramme</nom_unite>
+				<coef_unite>-3</coef_unite>
+			</unite>			
+			<unite>
+				<nom_unite>hectogram</nom_unite>
+				<coef_unite>-2</coef_unite>
+			</unite>			
+			<unite>
+				<nom_unite>dekagram</nom_unite>
+				<coef_unite>-1</coef_unite>
+			</unite>
+			<unite>
+				<nom_unite>gramme</nom_unite>
+				<coef_unite>0</coef_unite>
+			</unite>
+			<unite>
+				<nom_unite>decigramme</nom_unite>
+				<coef_unite>1</coef_unite>
+			</unite>
+			<unite>
+				<nom_unite>centigramme</nom_unite>
+				<coef_unite>2</coef_unite>
+			</unite>
+			<unite>
+				<nom_unite>milligramme</nom_unite>
+				<coef_unite>3</coef_unite>
+			</unite>
+			<unite>
+				<nom_unite>microgramme</nom_unite>
+				<coef_unite>4</coef_unite>
+			</unite>
+		</mesure>
+			
+	</systeme>
+	
+	
+	<systeme id="2" nom_systeme="impérial">
+	
+		<mesure id_unite="100" nom_mesure="longueur">		
+			<unite>
+				<nom_unite>Thou</nom_unite>
+				<coef_unite>-3</coef_unite>
+			</unite>			
+			<unite>
+			<unite>
+				<nom_unite>Hectomètre</nom_unite>
+				<coef_unite>-2</coef_unite>
+			</unite>			
+			<unite>
+			<unite>
+				<nom_unite>Décamètre</nom_unite>
+				<coef_unite>-1</coef_unite>
+			</unite>			
+			<unite>
+			<unite>
+				<nom_unite>MÈTRE</nom_unite>
+				<coef_unite>0</coef_unite>
+			</unite>			
+			<unite>
+				<nom_unite>Décimètre</nom_unite>
+				<coef_unite>1</coef_unite>
+			</unite>			
+			<unite>
+				<nom_unite>Centimètre</nom_unite>
+				<coef_unite>2</coef_unite>
+			</unite>			
+			<unite>
+				<nom_unite>Millimètre</nom_unite>
+				<coef_unite>3</coef_unite>
+			</unite>			
+		</mesure>
+		
+		<mesure id_unite="200" nom_mesure="capacité">		
+			<unite>
+				<nom_unite>kilolitre</nom_unite>
+				<coef_unite>-3</coef_unite>
+			</unite>			
+			<unite>
+				<nom_unite>hectolitre</nom_unite>
+				<coef_unite>-2</coef_unite>
+			</unite>			
+			<unite>
+				<nom_unite>dekalitre</nom_unite>
+				<coef_unite>-1</coef_unite>
+			</unite>			
+			<unite>
+				<nom_unite>litre</nom_unite>
+				<coef_unite>0</coef_unite>
+			</unite>
+			<unite>
+				<nom_unite>decilitre</nom_unite>
+				<coef_unite>1</coef_unite>
+			</unite>
+			<unite>
+				<nom_unite>centilitre</nom_unite>
+				<coef_unite>2</coef_unite>
+			</unite>
+		</mesure>
+		
+		<mesure id_unite="300" nom_mesure="masse">		
+			<unite>
+				<nom_unite>tonne</nom_unite>
+				<coef_unite>-4</coef_unite>
+			</unite>			
+			<unite>
+				<nom_unite>kilogramme</nom_unite>
+				<coef_unite>-3</coef_unite>
+			</unite>			
+			<unite>
+				<nom_unite>hectogram</nom_unite>
+				<coef_unite>-2</coef_unite>
+			</unite>			
+			<unite>
+				<nom_unite>dekagram</nom_unite>
+				<coef_unite>-1</coef_unite>
+			</unite>
+			<unite>
+				<nom_unite>gramme</nom_unite>
+				<coef_unite>0</coef_unite>
+			</unite>
+			<unite>
+				<nom_unite>decigramme</nom_unite>
+				<coef_unite>1</coef_unite>
+			</unite>
+			<unite>
+				<nom_unite>centigramme</nom_unite>
+				<coef_unite>2</coef_unite>
+			</unite>
+			<unite>
+				<nom_unite>milligramme</nom_unite>
+				<coef_unite>3</coef_unite>
+			</unite>
+			<unite>
+				<nom_unite>microgramme</nom_unite>
+				<coef_unite>4</coef_unite>
+			</unite>
+		</mesure>
+	</systeme>
+	
+	
+	
+	<conversion>
+		<systeme_depart>1</systeme_depart>
+		<systeme_arrive>2</systeme_arrive>
+		<mesure>100</mesure>
+		<taux_conversion>0.5</taux_conversion>
+	</conversion>
+	
+	<conversion>
+		<systeme_depart>1</systeme_depart>
+		<systeme_arrive>2</systeme_arrive>
+		<mesure>200</mesure>
+		<taux_conversion>0.5</taux_conversion>
+	</conversion>
+	
+	<conversion>
+		<systeme_depart>1</systeme_depart>
+		<systeme_arrive>2</systeme_arrive>
+		<mesure>300</mesure>
+		<taux_conversion>0.5</taux_conversion>
+	</conversion>
+	
+	<conversion>
+		<systeme_depart>2</systeme_depart>
+		<systeme_arrive>1</systeme_arrive>
+		<mesure>100</mesure>
+		<taux_conversion>1.5</taux_conversion>
+	</conversion>
+	
+	<conversion>
+		<systeme_depart>2</systeme_depart>
+		<systeme_arrive>1</systeme_arrive>
+		<mesure>200</mesure>
+		<taux_conversion>1.5</taux_conversion>
+	</conversion>
+	
+	<conversion>
+		<systeme_depart>2</systeme_depart>
+		<systeme_arrive>1</systeme_arrive>
+		<mesure>300</mesure>
+		<taux_conversion>1.5</taux_conversion>
+	</conversion>
+	
+</SystemeConversion>
